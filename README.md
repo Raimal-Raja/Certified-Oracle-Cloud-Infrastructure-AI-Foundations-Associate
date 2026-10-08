@@ -129,3 +129,52 @@ Take your first step toward becoming an AI professional with **Oracle Cloud Infr
 ---
 
 **© Oracle Cloud Infrastructure | AI Foundations Learning Path**
+
+---
+
+## Repository guide
+
+### Contents
+
+- [1 - AI Foundations](1%20-%20AI%20Foundations)
+- [2 - Machine Learning Foundations](2%20-%20Machine%20Learning%20Foundations)
+- [3 - Deep Learning Foundations](3%20-%20Deep%20Learning%20Foundations)
+- [4 - Generative AI and LLM Foundations](4%20-%20Generative%20AI%20and%20LLM%20Foundations)
+- [5 - OCI AI Portfolio](5%20-%20OCI%20AI%20Portfolio)
+- [6 - OCI Generative AI Service](6%20-%20OCI%20Generative%20AI%20Service)
+- [7 - OCI AI Services](7%20-%20OCI%20AI%20Services)
+- [Books](Books)
+- [README.md](README.md)
+- [requirements.txt](requirements.txt)
+
+### Getting started
+
+```bash
+git clone https://github.com/Raimal-Raja/Certified-Oracle-Cloud-Infrastructure-AI-Foundations-Associate.git
+cd Certified-Oracle-Cloud-Infrastructure-AI-Foundations-Associate
+```
+
+Create and activate a virtual environment, then install the project dependencies:
+
+```bash
+python -m venv .venv
+# Linux/macOS: source .venv/bin/activate
+# Windows PowerShell: .venv\Scripts\Activate.ps1
+python -m pip install -r "requirements.txt"
+```
+
+Open the relevant .ipynb notebook in Jupyter or a compatible notebook environment. Inspect its dependency and data-loading cells before running; there is no single shared application entry point.
+
+### Configuration and limitations
+
+### Validation
+
+Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+
+### Contributions
+
+Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
+
+### License
+
+No top-level license file was found during this review.
