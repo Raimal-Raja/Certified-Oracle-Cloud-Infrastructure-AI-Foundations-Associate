@@ -132,9 +132,9 @@ Take your first step toward becoming an AI professional with **Oracle Cloud Infr
 
 ---
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [1 - AI Foundations](1%20-%20AI%20Foundations)
 - [2 - Machine Learning Foundations](2%20-%20Machine%20Learning%20Foundations)
@@ -144,7 +144,6 @@ Take your first step toward becoming an AI professional with **Oracle Cloud Infr
 - [6 - OCI Generative AI Service](6%20-%20OCI%20Generative%20AI%20Service)
 - [7 - OCI AI Services](7%20-%20OCI%20AI%20Services)
 - [Books](Books)
-- [README.md](README.md)
 - [requirements.txt](requirements.txt)
 
 ### Getting started
@@ -167,9 +166,15 @@ Open the relevant .ipynb notebook in Jupyter or a compatible notebook environmen
 
 ### Configuration and limitations
 
+Use the numbered chapters as study resources. External OCI accounts, labs and certification availability are outside this repository; no cloud resources were provisioned during the audit.
+
 ### Validation
 
-Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
