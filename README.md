@@ -1,4 +1,64 @@
-# 🧩 Oracle Cloud Infrastructure (OCI) AI Foundations Learning Path
+# OCI AI Foundations — Study Guide
+
+Study materials and learning resources for Oracle Cloud Infrastructure AI Foundations concepts.
+
+## Project focus
+
+Learning notes and notebooks. Use the directory map to choose a focused example or learning topic instead of treating the repository as one application.
+
+## Workflow
+
+```mermaid
+flowchart TD
+    A["Select a chapter or exercise"] --> B["Read the associated source or notes"]
+    B --> C["Run one example or notebook"]
+    C --> D{"Expected outcome?"}
+    D -->|Yes| E["Record findings and continue"]
+    D -->|No| F["Review assumptions and inputs"]
+    F --> B
+```
+
+The diagram describes how to work through the material; it is not a deployed service topology.
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| [`1 - AI Foundations/`](1%20-%20AI%20Foundations) | Topic-organized learning material and examples. |
+| [`2 - Machine Learning Foundations/`](2%20-%20Machine%20Learning%20Foundations) | Topic-organized learning material and examples. |
+| [`3 - Deep Learning Foundations/`](3%20-%20Deep%20Learning%20Foundations) | Topic-organized learning material and examples. |
+| [`4 - Generative AI and LLM Foundations/`](4%20-%20Generative%20AI%20and%20LLM%20Foundations) | Topic-organized learning material and examples. |
+| [`5 - OCI AI Portfolio/`](5%20-%20OCI%20AI%20Portfolio) | Topic-organized learning material and examples. |
+| [`6 - OCI Generative AI Service/`](6%20-%20OCI%20Generative%20AI%20Service) | Topic-organized learning material and examples. |
+| [`7 - OCI AI Services/`](7%20-%20OCI%20AI%20Services) | Topic-organized learning material and examples. |
+| [`Books/`](Books) | Project-specific source, resources, or learning material. |
+| [`requirements.txt`](requirements.txt) | Python dependency manifest. |
+
+## Getting started
+
+```bash
+git clone https://github.com/Raimal-Raja/Certified-Oracle-Cloud-Infrastructure-AI-Foundations-Associate.git
+cd Certified-Oracle-Cloud-Infrastructure-AI-Foundations-Associate
+```
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead.
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Open one `.ipynb` file in Jupyter, VS Code, Kaggle, or Colab. Read its dependency and dataset cells before execution. Notebook paths and model/data requirements vary; this repository is not one shared deployable application.
+
+## Verification
+
+Use the setup commands and inspect the selected interface, example, or notebook with known inputs. This documentation review checks repository paths and dependency declarations; it does not claim fresh end-to-end execution or model-quality measurements.
+
+## Detailed project guide
 
 The **Oracle Cloud Infrastructure (OCI) AI Foundations Learning Path** introduces you to the **fundamental concepts of Artificial Intelligence (AI), Machine Learning (ML), Deep Learning (DL), and Generative AI** — with a strong focus on their **practical applications within Oracle Cloud Infrastructure (OCI)**.
 
@@ -93,22 +153,22 @@ By completing the **OCI AI Foundations Learning Path**, you will:
 Here are official Oracle resources to deepen your learning:
 
 * **Oracle Cloud Infrastructure (OCI) Official Site:**
-  [https://www.oracle.com/cloud/](https://www.oracle.com/cloud/)
+  [http./project
 
 * **OCI AI Services Documentation:**
-  [https://docs.oracle.com/en-us/iaas/Content/ai/home.htm](https://docs.oracle.com/en-us/iaas/Content/ai/home.htm)
+  [http./project
 
 * **OCI Generative AI Documentation:**
-  [https://docs.oracle.com/en-us/iaas/Content/generative-ai/](https://docs.oracle.com/en-us/iaas/Content/generative-ai/)
+  [http./project
 
 * **Oracle 23ai Database Overview:**
-  [https://www.oracle.com/database/ai/](https://www.oracle.com/database/ai/)
+  [http./project
 
 * **Oracle Learning Explorer – AI Foundations Path:**
-  [https://learn.oracle.com/ols/home](https://learn.oracle.com/ols/home)
+  [http./project
 
 * **OCI Hands-On Labs:**
-  [https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID,P112_PREV_PAGE:16833,112](https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID,P112_PREV_PAGE:16833,112)
+  [http./project
 
 ---
 
@@ -132,50 +192,10 @@ Take your first step toward becoming an AI professional with **Oracle Cloud Infr
 
 ---
 
-## Setup and repository reference
+## Contributing
 
-### Project structure
+Include reproduction steps, the affected path, expected behavior, and the checks you ran. Keep credentials, generated environments, and unnecessary build artifacts out of commits.
 
-- [1 - AI Foundations](1%20-%20AI%20Foundations)
-- [2 - Machine Learning Foundations](2%20-%20Machine%20Learning%20Foundations)
-- [3 - Deep Learning Foundations](3%20-%20Deep%20Learning%20Foundations)
-- [4 - Generative AI and LLM Foundations](4%20-%20Generative%20AI%20and%20LLM%20Foundations)
-- [5 - OCI AI Portfolio](5%20-%20OCI%20AI%20Portfolio)
-- [6 - OCI Generative AI Service](6%20-%20OCI%20Generative%20AI%20Service)
-- [7 - OCI AI Services](7%20-%20OCI%20AI%20Services)
-- [Books](Books)
-- [requirements.txt](requirements.txt)
+## License
 
-### Getting started
-
-```bash
-git clone https://github.com/Raimal-Raja/Certified-Oracle-Cloud-Infrastructure-AI-Foundations-Associate.git
-cd Certified-Oracle-Cloud-Infrastructure-AI-Foundations-Associate
-```
-
-Create and activate a virtual environment, then install the project dependencies:
-
-```bash
-python -m venv .venv
-# Linux/macOS: source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -r "requirements.txt"
-```
-
-Open the relevant .ipynb notebook in Jupyter or a compatible notebook environment. Inspect its dependency and data-loading cells before running; there is no single shared application entry point.
-
-### Configuration and limitations
-
-Use the numbered chapters as study resources. External OCI accounts, labs and certification availability are outside this repository; no cloud resources were provisioned during the audit.
-
-### Validation
-
-Recorded checks from the previous maintenance review (2026-10-08): Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
-
-### Contributions
-
-Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
-
-### License
-
-No top-level license file was found during this review.
+No top-level license file is currently tracked. Check reuse permissions with the repository owner.
